@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Front</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css\front\front.css">
+</head>
+
+<script>
+    function collectionSumbit(){
+        $('#collectionModel').modal('toggle');  
+        $('#collectionSumit').sumbit();  
+    };
+
+    function collectionChange(){
+        $('#collectionModel').modal('toggle');  
+        $('#changeModel').modal('toggle');  
+        $('#collectionForm').sumbit();  
+    }
+        
+</script>
+
+<body>
+    <div class="page-header row">
+        <div class="col-lg-9 col-md-8 col-sm-7 col-xs-6">
+            <h1>XX超市</h1>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-5 col-xs-6 text-right">
+            <p>xxxx公司</p>
+            <p>销售咨询:xxxxxx</p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <!--主体表格-->
+        <div class="col-sm-12  col-md-12  col-lg-12  main">
+            <div class="row">
+                <div class="table-responsive" id="mainTable">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>行号</th>
+                                <th>条码</th>
+                                <th>名称</th>
+                                <th>单位</th>
+                                <th>数量</th>
+                                <th>价格</th>
+                                <th>小计</th>
+                            </tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2651503605</td>
+                                <td>辣条</td>
+                                <td>根</td>
+                                <td>200</td>
+                                <td>10</td>
+                                <td>10</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <form role="form" method="POST" action="" id="collectionSumit">
+                <div class="row">
+                    <div class="form-group col-lg-6 col-md-6">
+                        <label class="sr-only">条码:</label>
+                        <input type="text" class="form-control" placeholder="条码">
+                    </div>
+                    <div class="form-group  col-lg-3 col-md-3">
+                        <label class="sr-only">数量:</label>
+                        <input type="text" class="form-control" placeholder="数量">
+                    </div>
+                    <div class="form-group col-lg-2 col-md-2">
+                        <button type="button" class="btn btn-default" onclick="collectionSumbit()">确定</button>
+                        <!--<button type="button" class="btn btn-default" onclick="collectionChange()">第二</button>-->
+                    </div>
+                    <div class="col-md-1 col-lg-1">
+                        <strong id="unitPrice">¥售价</strong>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!--MODEL-->
+
+        <!--收款-->
+        <div class="modal fade" id="collectionModel" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title">现金付款</h4>
+                    </div>
+                    <form class="form-horizontal" role="form" id="collectionForm">
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">应收金额:</label>
+                                <div class="col-sm-9">
+                                    <p class="form-control-static">¥XXX</p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">付款金额:</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                            <button type="button" class="btn btn-primary" onclick="collectionChange()">提交</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--找零-->
+        <div class="modal fade" tabindex="-1" role="dialog"  aria-hidden="true" id="changeModel">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" >找零</h4>
+                    </div>
+                    <div class="modal-body">
+                        ¥XXXX
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js\jquery-1.11.1.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
