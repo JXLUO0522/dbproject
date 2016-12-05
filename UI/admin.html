@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin</title>
+    <link href="_ROOT_" rel="stylesheet">
+    <link rel="stylesheet" type="" href="css/admin/admin.css">
+</head>
+
+<body>
+    <div class="page-header">
+        <h1>零售店库存管理系统</h1>
+    </div>
+    <div class="container-fluid">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#item" role="tab" data-toggle="tab">商品</a></li>
+            <li role="presentation"><a href="#supplier" role="tab" data-toggle="tab">供货商</a></li>
+            <li role="presentation"><a href="#purchases" role="tab" data-toggle="tab">进货</a></li>
+            <li role="presentation"><a href="#admin" role="tab" data-toggle="tab">管理员</a></li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <!--商品-->
+            <div role="tabpanel" class="tab-pane active" id="item">
+                
+                <div class="container-fluid">
+                    <div class="row">
+                        <!--大屏幕按钮组-->
+                        <div class="btn-group col-lg-6 col-md-10 col-sm-12 hidden-xs operation-group ">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#newItem"> 新增</button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-info">删除</button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-info">查询</button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-info">修改</button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-info">新增组</button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-info">修改组</button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-info">删除组</button>
+                            </div>
+                        </div>
+                        <!--小屏幕操作按钮组-->
+                        <div class="btn-group visible-xs col-xs-12">
+                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                操作选项 <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#newItem" data-toggle="modal">新增</a></li>
+                                <li><a href="#">删除</a></li>
+                                <li><a href="#">查询</a></li>
+                                <li><a href="#">修改</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">新增组</a></li>
+                                <li><a href="#">修改组</a></li>
+                                <li><a href="#">删除组</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+                    <div class="row">
+
+                        <!--右侧导航栏-->
+                        <div class="col-sm-3 col-md-2  sidebar">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    全部
+                                    </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in " role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <ul class="nav nav-sidebar">
+                                            <li><a href="#">零食类</a></li>
+                                            <li><a href="#">烟酒类</a></li>
+                                            <li><a href="#">杂物类</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--主体表格-->
+                        <div class="col-sm-9  col-md-10  main">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>货号</th>
+                                            <th>条码</th>
+                                            <th>名称</th>
+                                            <th>单位</th>
+                                            <th>售价</th>
+                                            <th>进价</th>
+                                            <th>库存</th>
+                                            <th>阈值</th>
+                                            <th>供货商</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1,001</td>
+                                            <td>2651503605</td>
+                                            <td>辣条</td>
+                                            <td>根</td>
+                                            <td>200</td>
+                                            <td>10</td>
+                                            <td>150</td>
+                                            <td>10</td>
+                                            <td>xxxxxx</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>          
+                </div>
+            </div>
+            
+            <!--供货商-->
+            <div role="tabpanel" class="tab-pane" id="supplier">
+                <!--大屏幕按钮组-->
+                <div class="btn-group col-lg-6 col-md-10 col-sm-12 hidden-xs operation-group ">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">新增</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">删除</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">查询</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">修改</button>
+                    </div>
+                </div>
+                <!--小屏幕操作按钮组-->
+                <div class="btn-group visible-xs col-xs-12">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        操作选项 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">新增</a></li>
+                        <li><a href="#">删除</a></li>
+                        <li><a href="#">查询</a></li>
+                        <li><a href="#">修改</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!--进货-->
+            <div role="tabpanel" class="tab-pane" id="purchases">
+                <!--大屏幕按钮组-->
+                <div class="btn-group col-lg-6 col-md-10 col-sm-12 hidden-xs operation-group ">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">新增</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">删除</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">查询</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">修改</button>
+                    </div>
+                </div>
+                <!--小屏幕操作按钮组-->
+                <div class="btn-group visible-xs col-xs-12">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        操作选项 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">新增</a></li>
+                        <li><a href="#">删除</a></li>
+                        <li><a href="#">查询</a></li>
+                        <li><a href="#">修改</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--管理员-->
+            <div role="tabpanel" class="tab-pane" id="admin">
+                <!--大屏幕按钮组-->
+                <div class="btn-group col-lg-6 col-md-10 col-sm-12 hidden-xs operation-group ">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">新增</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">删除</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">查询</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info">修改</button>
+                    </div>
+                </div>
+                <!--小屏幕操作按钮组-->
+                <div class="btn-group visible-xs col-xs-12">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        操作选项 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        
+                        <li><a href="#">新增</a></li>
+                        <li><a href="#">删除</a></li>
+                        <li><a href="#">查询</a></li>
+                        <li><a href="#">修改</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Model-->
+    <div class="modal fade" id="newItem" tabindex="-1" role="dialog" aria-hidden="true" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" >新增商品</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" role="form" name="newItemTable">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">编号:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">名称:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">条码:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-2">售价:</label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control">
+                            </div>
+                            <label class="control-label col-sm-2">进价:</label> 
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2">单位:</label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control">
+                            </div>
+                            <label class="control-label col-sm-2">阈值:</label> 
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2">类型:</label>
+                            <div class="col-sm-3">
+                                <select class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <label class="control-label col-sm-2">供应商:</label> 
+                                <div class="col-sm-3"><select class="form-control">
+                                    <option>麦当劳</option>
+                                    <option>肯德基</option>
+                                    <option>庄呆逼</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">备注:</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary" onclick="newItemTable.sumbit()">保存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js\jquery-1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

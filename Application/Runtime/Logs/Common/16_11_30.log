@@ -1,0 +1,150 @@
+[ 2016-11-30T19:02:06+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/id1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:02:19+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:02:24+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:04:19+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:05:57+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:08:01+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:08:06+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:08:27+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:09:37+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:09:39+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:09:40+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:09:42+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:09:42+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:10:49+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:10:49+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:10:50+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:10:50+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:10:51+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:10:51+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:10:51+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:10:51+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:10:52+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T19:10:52+08:00 ] 127.0.0.1 /Branch/index.php/Test/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-30T20:58:55+08:00 ] 127.0.0.1 /Branch/index.php/css/admin/adminLogin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Css
+
+[ 2016-11-30T21:04:08+08:00 ] 127.0.0.1 /Branch/index.php/css/admin/adminLogin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 无法加载模块:Css
+

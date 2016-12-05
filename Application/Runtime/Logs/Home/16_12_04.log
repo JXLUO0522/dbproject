@@ -1,0 +1,27 @@
+[ 2016-12-04T21:08:28+08:00 ] 127.0.0.1 /Branch/index.php/Home/Back/item
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `item_info` [ RunTime:0.0616s ]
+SQL: SHOW COLUMNS FROM `item_type` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `sup_info` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `item_info`  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `item_type`  [ RunTime:0.0180s ]
+SQL: SELECT `sup_name` FROM `sup_info` WHERE ( sup_no=1 ) LIMIT 1   [ RunTime:0.0305s ]
+SQL: SELECT * FROM `sup_info`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013919s ]
+
